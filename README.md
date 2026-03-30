@@ -51,7 +51,7 @@ Opracowuje sekcję „Kontakt”, stopkę (footer) oraz stronę błędu.
 
 Po zakończeniu ćwiczenia grupa przedstawia pozostałym informacje nt. rzeczy, które powinny się znaleźć na dole strony (dobre praktyki), omawia rolę customizowanej strony 404. 
 
-### Grupa 5
+### Grupa 5:
 Pracuje nad sekcjami „Narzędzia przydatne na starcie” i „FAQ”.
 – Sekcja „Narzędzia przydatne na starcie” – należy wymyślić i stworzyć dla niej alternatywę. Co innego mogłoby się tu znaleźć, co byłoby użyteczne dla młodych adeptów edytorstwa? Należy skorzystać z podpowiedzi AI, wybrać najlepszą i zmodyfikować ją. Wybór trzeba uargumentować. 
 – Sekcja FAQ – należy opracować realne pytania i odpowiedzi (FAQ nie może być za długie, max 6-8 pytań). Grupa powinna dopilnować, aby sekcja FAQ była spójna z całą witryną (pytania i odpowiedzi nie mogą stać w sprzeczności z treściami dodawanymi przez pozostałe grupy; warto, żeby tematy się nie powielały). Odpowiedzi w FAQ mogą zawierać linki do stron zewnętrznych lub do miejsc w projekcie.
@@ -60,25 +60,25 @@ Po zakończeniu ćwiczenia grupa przedstawia pozostałym swój proces decyzyjny 
 
 ## Prompty 
 ### Grupa 1
-–
-–
-–
+– 
+– 
+– 
 ### Grupa 2
-–
-–
-–
+– 
+– 
+– 
 ### Grupa 3
-–
-–
-–
+– 
+– 
+– 
 ### Grupa 4
-–
-–
-–
+– 
+– 
+– 
 ### Grupa 5
-–
-–
-–
+– 
+– 
+– 
 
 
 
