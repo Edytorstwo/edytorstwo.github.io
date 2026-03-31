@@ -1,22 +1,15 @@
 # Projekt zespołowy
 ## Podział na grupy
-Wygeneruj 5 grup losowo (jedna musi być trzyosobowa):
-Ewelina B.
-Emilia Ch.
-Łucja M.
-Edyta M.
-Maciej P.
-Joanna P.
-Julia P.
-Sonia R.
-Aleksandra S.
-Adrianna U.
-Stanisław W.
 
-1. **Grupa 1** – 
-2. **Grupa 2** – 
-3. **Grupa 3** – 
-4. **Grupa 4** – 
+1. **Grupa 1** – Ewelina B.
+Stanisław W.
+Julia P.
+2. **Grupa 2** – Emilia Ch.
+Maciej P.
+3. **Grupa 3** – Łucja M.
+Sonia R.
+4. **Grupa 4** – Joanna P.
+Adrianna U.
 5. **Grupa 5** – 
 
 ## Zasady pracy
