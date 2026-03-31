@@ -158,20 +158,20 @@
         <h2>1. Wchodzisz do Biblioteki Jagiellońskiej i widzisz książkę z krzywo naklejoną sygnaturą. Co robisz?</h2>
         <label class="option"><input type="radio" name="q1" value="0">A. Udaję, że nic nie widzę.</label>
         <label class="option"><input type="radio" name="q1" value="1">B. Delikatnie ją poprawiam.</label>
-        <label class="option"><input type="radio" name="q1" value="1">C. Robię zdjęcie z podpisem: „typografia płacze”.</label>
+        <label class="option"><input type="radio" name="q1" value="1">C. Robię zdjęcie z podpisem: „typografia płacze".</label>
         <label class="option"><input type="radio" name="q1" value="1">D. Piszę oficjalny raport do dziekanatu.</label>
       </div>
 
       <div class="question">
         <h2>2. Które zdanie brzmi dla Ciebie najbardziej romantycznie?</h2>
-        <label class="option"><input type="radio" name="q2" value="0">A. „Spotkajmy się pod Collegium Novum.”</label>
-        <label class="option"><input type="radio" name="q2" value="1">B. „Masz bardzo ładny kerning.”</label>
-        <label class="option"><input type="radio" name="q2" value="0">C. „Pożyczę Ci notatki.”</label>
-        <label class="option"><input type="radio" name="q2" value="0">D. „Kupiłem Ci zapiekankę na Kazimierzu.”</label>
+        <label class="option"><input type="radio" name="q2" value="0">A. „Spotkajmy się pod Collegium Novum."</label>
+        <label class="option"><input type="radio" name="q2" value="1">B. „Masz bardzo ładny kerning."</label>
+        <label class="option"><input type="radio" name="q2" value="0">C. „Pożyczę Ci notatki."</label>
+        <label class="option"><input type="radio" name="q2" value="0">D. „Kupiłem Ci zapiekankę na Kazimierzu."</label>
       </div>
 
       <div class="question">
-        <h2>3. Prowadzący mówi: „Przypisy mogą być byle jakie”.</h2>
+        <h2>3. Prowadzący mówi: „Przypisy mogą być byle jakie".</h2>
         <label class="option"><input type="radio" name="q3" value="0">A. Akceptuję.</label>
         <label class="option"><input type="radio" name="q3" value="1">B. Słyszę trąby apokalipsy.</label>
         <label class="option"><input type="radio" name="q3" value="1">C. Poprawiam przypisy wszystkim.</label>
@@ -187,9 +187,9 @@
       </div>
 
       <div class="question">
-        <h2>5. Widzisz plakat z napisem: „Zapraszamy Studentów”.</h2>
+        <h2>5. Widzisz plakat z napisem: „Zapraszamy Studentów".</h2>
         <label class="option"><input type="radio" name="q5" value="0">A. Nic.</label>
-        <label class="option"><input type="radio" name="q5" value="1">B. „Studentów” niepotrzebnie zapisano wielką literą.</label>
+        <label class="option"><input type="radio" name="q5" value="1">B. „Studentów" niepotrzebnie zapisano wielką literą.</label>
         <label class="option"><input type="radio" name="q5" value="0">C. Kolor tła.</label>
         <label class="option"><input type="radio" name="q5" value="0">D. Brak mema z rektorem.</label>
       </div>
@@ -219,7 +219,7 @@
       </div>
 
       <div class="question">
-        <h2>9. Gdy słyszysz słowo „redakcja”, myślisz o:</h2>
+        <h2>9. Gdy słyszysz słowo „redakcja", myślisz o:</h2>
         <label class="option"><input type="radio" name="q9" value="0">A. Gazecie.</label>
         <label class="option"><input type="radio" name="q9" value="0">B. Poprawianiu tekstu.</label>
         <label class="option"><input type="radio" name="q9" value="1">C. Tajemnym zakonie walczącym z sierotkami i wdowami.</label>
