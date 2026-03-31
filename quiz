@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Czy płynie w Tobie edytorska krew?</title>
+  <style>
+    :root {
+      --burgundy: #7b1023;
+      --gold: #d4b15a;
+      --paper: #f7f3ec;
+      --ink: #2b2b2b;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background: linear-gradient(135deg, #f7f3ec 0%, #efe6d3 100%);
+      color: var(--ink);
+      line-height: 1.6;
+      padding: 30px 15px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .header {
+      background: var(--burgundy);
+      color: white;
+      padding: 40px 30px;
+      border-radius: 24px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0 0 10px;
+      font-size: 2.4rem;
+    }
+
+    .header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 1.05rem;
+    }
+
+    .question {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 24px;
+      margin-bottom: 22px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      border-left: 8px solid var(--gold);
+    }
+
+    .question h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: var(--burgundy);
+    }
+
+    .option {
+      display: block;
+      margin: 12px 0;
+      padding: 12px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.2s;
+      border: 1px solid #ddd;
+      background: #fafafa;
+    }
+
+    .option:hover {
+      background: #f2ebdd;
+      transform: translateX(4px);
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+      accent-color: var(--burgundy);
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      border: none;
+      border-radius: 16px;
+      background: var(--burgundy);
+      color: white;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: 0.2s;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #5e0c1a;
+    }
+
+    #result {
+      display: none;
+      margin-top: 35px;
+      padding: 28px;
+      border-radius: 20px;
+      background: white;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      border-top: 10px solid var(--gold);
+    }
+
+    #result h2 {
+      margin-top: 0;
+      color: var(--burgundy);
+      font-size: 1.8rem;
+    }
+
+    #result p {
+      font-size: 1.1rem;
+    }
+
+    .score {
+      margin-top: 12px;
+      font-weight: bold;
+      color: var(--burgundy);
+    }
+
+    @media (max-width: 700px) {
+      .header h1 {
+        font-size: 1.8rem;
+      }
+
+      .question {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Czy płynie w Tobie edytorska krew?</h1>
+      <p>
+        Quiz dla studentów UJ i wszystkich, którzy dostają dreszczyku emocji,
+        gdy widzą podwójny odstęp albo źle postawiony przecinek.
+      </p>
+    </div>
+
+    <form id="quizForm">
+      <div class="question">
+        <h2>1. Wchodzisz do Biblioteki Jagiellońskiej i widzisz książkę z krzywo naklejoną sygnaturą. Co robisz?</h2>
+        <label class="option"><input type="radio" name="q1" value="0">A. Udaję, że nic nie widzę.</label>
+        <label class="option"><input type="radio" name="q1" value="1">B. Delikatnie ją poprawiam.</label>
+        <label class="option"><input type="radio" name="q1" value="1">C. Robię zdjęcie z podpisem: „typografia płacze”.</label>
+        <label class="option"><input type="radio" name="q1" value="1">D. Piszę oficjalny raport do dziekanatu.</label>
+      </div>
+
+      <div class="question">
+        <h2>2. Które zdanie brzmi dla Ciebie najbardziej romantycznie?</h2>
+        <label class="option"><input type="radio" name="q2" value="0">A. „Spotkajmy się pod Collegium Novum.”</label>
+        <label class="option"><input type="radio" name="q2" value="1">B. „Masz bardzo ładny kerning.”</label>
+        <label class="option"><input type="radio" name="q2" value="0">C. „Pożyczę Ci notatki.”</label>
+        <label class="option"><input type="radio" name="q2" value="0">D. „Kupiłem Ci zapiekankę na Kazimierzu.”</label>
+      </div>
+
+      <div class="question">
+        <h2>3. Prowadzący mówi: „Przypisy mogą być byle jakie”.</h2>
+        <label class="option"><input type="radio" name="q3" value="0">A. Akceptuję.</label>
+        <label class="option"><input type="radio" name="q3" value="1">B. Słyszę trąby apokalipsy.</label>
+        <label class="option"><input type="radio" name="q3" value="1">C. Poprawiam przypisy wszystkim.</label>
+        <label class="option"><input type="radio" name="q3" value="1">D. Zaczynam wykład o normach cytowania.</label>
+      </div>
+
+      <div class="question">
+        <h2>4. Ile czcionek powinno znaleźć się w pracy zaliczeniowej?</h2>
+        <label class="option"><input type="radio" name="q4" value="0">A. Jedna.</label>
+        <label class="option"><input type="radio" name="q4" value="1">B. Dwie lub trzy, ale z sensem.</label>
+        <label class="option"><input type="radio" name="q4" value="0">C. Tyle, ile mam zainstalowanych.</label>
+        <label class="option"><input type="radio" name="q4" value="0">D. Comic Sans i reszta nie ma znaczenia.</label>
+      </div>
+
+      <div class="question">
+        <h2>5. Widzisz plakat z napisem: „Zapraszamy Studentów”.</h2>
+        <label class="option"><input type="radio" name="q5" value="0">A. Nic.</label>
+        <label class="option"><input type="radio" name="q5" value="1">B. „Studentów” niepotrzebnie zapisano wielką literą.</label>
+        <label class="option"><input type="radio" name="q5" value="0">C. Kolor tła.</label>
+        <label class="option"><input type="radio" name="q5" value="0">D. Brak mema z rektorem.</label>
+      </div>
+
+      <div class="question">
+        <h2>6. Kto jest prawdziwym bohaterem każdego tekstu?</h2>
+        <label class="option"><input type="radio" name="q6" value="0">A. Autor.</label>
+        <label class="option"><input type="radio" name="q6" value="0">B. Czytelnik.</label>
+        <label class="option"><input type="radio" name="q6" value="1">C. Redaktor.</label>
+        <label class="option"><input type="radio" name="q6" value="1">D. Osoba od automatycznego spisu treści.</label>
+      </div>
+
+      <div class="question">
+        <h2>7. O 23:47 zauważasz samotny podwójny odstęp.</h2>
+        <label class="option"><input type="radio" name="q7" value="0">A. Ignoruję go.</label>
+        <label class="option"><input type="radio" name="q7" value="1">B. Poprawiam i sprawdzam resztę.</label>
+        <label class="option"><input type="radio" name="q7" value="1">C. Poprawiam cały dokument.</label>
+        <label class="option"><input type="radio" name="q7" value="0">D. Wyjeżdżam w Bieszczady.</label>
+      </div>
+
+      <div class="question">
+        <h2>8. Co najbardziej przypomina klimat sesji na UJ?</h2>
+        <label class="option"><input type="radio" name="q8" value="0">A. Spokojny spacer Plantami.</label>
+        <label class="option"><input type="radio" name="q8" value="1">B. Maraton przypisów i desperackiego szukania PDF-ów.</label>
+        <label class="option"><input type="radio" name="q8" value="0">C. Czekanie na tramwaj.</label>
+        <label class="option"><input type="radio" name="q8" value="0">D. Bitwa pod Grunwaldem, ale z większą ilością kawy.</label>
+      </div>
+
+      <div class="question">
+        <h2>9. Gdy słyszysz słowo „redakcja”, myślisz o:</h2>
+        <label class="option"><input type="radio" name="q9" value="0">A. Gazecie.</label>
+        <label class="option"><input type="radio" name="q9" value="0">B. Poprawianiu tekstu.</label>
+        <label class="option"><input type="radio" name="q9" value="1">C. Tajemnym zakonie walczącym z sierotkami i wdowami.</label>
+        <label class="option"><input type="radio" name="q9" value="1">D. Miejscu, gdzie ktoś pyta o przecinek.</label>
+      </div>
+
+      <div class="question">
+        <h2>10. W podziemiach Collegium Maius znajdujesz księgę pełną błędów.</h2>
+        <label class="option"><input type="radio" name="q10" value="0">A. Zamykam ją i uciekam.</label>
+        <label class="option"><input type="radio" name="q10" value="1">B. Poprawiam pierwszy błąd.</label>
+        <label class="option"><input type="radio" name="q10" value="0">C. Oddaję ją znajomemu z filologii.</label>
+        <label class="option"><input type="radio" name="q10" value="1">D. Wypowiadam zaklęcie: Ctrl+H.</label>
+      </div>
+
+      <button type="button" onclick="showResult()">Sprawdź wynik</button>
+    </form>
+
+    <div id="result">
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+      <div class="score" id="scoreText"></div>
+    </div>
+  </div>
+
+  <script>
+    function showResult() {
+      const questions = 10;
+      let score = 0;
+
+      for (let i = 1; i <= questions; i++) {
+        const answer = document.querySelector(`input[name="q${i}"]:checked`);
+
+        if (!answer) {
+          alert("Najpierw odpowiedz na wszystkie pytania. Quiz nie lubi pustych marginesów.");
+          return;
+        }
+
+        score += Number(answer.value);
+      }
+
+      const result = document.getElementById("result");
+      const title = document.getElementById("resultTitle");
+      const text = document.getElementById("resultText");
+      const scoreText = document.getElementById("scoreText");
+
+      if (score <= 3) {
+        title.textContent = "Poziom: Kawa i chaos";
+        text.textContent = "W Twoich żyłach płynie głównie kawa i stres sesyjny. Redakcja jest dla Ciebie jak tajemniczy manuskrypt ukryty w piwnicy Collegium Maius.";
+      } else if (score <= 6) {
+        title.textContent = "Poziom: Uśpiony łowca literówek";
+        text.textContent = "Masz potencjał. Gdzieś w Tobie drzemie mały tropiciel błędów, który budzi się po trzeciej kawie i zaczyna polować na podwójne spacje.";
+      } else if (score <= 9) {
+        title.textContent = "Poziom: Strażnik przypisów";
+        text.textContent = "Twoje zmysły reagują na błędne półpauzy z odległości kilku metrów. Istnieje spora szansa, że poprawiasz menu w restauracjach i napisy w tramwajach.";
+      } else {
+        title.textContent = "Poziom: Edytorski smok spod Wawelu";
+        text.textContent = "Gratulacje. W Twoich żyłach płynie atrament, przypisy i lekka pogarda dla źle wyjustowanych tekstów. Gdy otwierasz Worda, przecinki ustawiają się w szeregu.";
+      }
+
+      scoreText.textContent = `Zdobyte punkty edytorskie: ${score} / 10`;
+      result.style.display = "block";
+      result.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
