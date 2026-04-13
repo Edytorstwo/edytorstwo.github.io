@@ -76,8 +76,8 @@ Po zakończeniu ćwiczenia grupa przedstawia pozostałym swój proces decyzyjny 
 - 
 - 
 ### Grupa 5
-- 
-- 
+- https://edytorstwo.github.io dana jest strona kierunku edytorstwo na UJ. Muszę przygotować na niej sekcję FAQ. Na podstawie dostępnych źródeł przygotuj 6–8 pytań, na które odpowiedzi mogą szukać osoby chcące zrekrutować się na ten kierunek.
+- Na podstawie dostępnych źródeł przygotuj sylwetkę absolwenta kierunku, która zostanie umieszczona jako zamiennik sekcji „Narzędzia przydatne na start”. Chcę zachować wygląd tej sekcji, więc opis musi zostać podzielony na 4 części podobnej długości z nagłówkami
 - 
 
 
