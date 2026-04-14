@@ -72,8 +72,8 @@ Po zakończeniu ćwiczenia grupa przedstawia pozostałym swój proces decyzyjny 
 - 
 - 
 ### Grupa 4
-- 
-- 
+- Zrób sekcję kontakt na witrynę internetową: edytorstwo.github.io, zawierającą formularz kontaktowy, email i numer telefonu, godziny pracy i czas odpowiedzi i adres fizyczny (ulica numer budynku i sali)
+- Zrób skrypt na stronę błędu 404. niech będzie edytorska i funkcjonalna
 - 
 ### Grupa 5
 - https://edytorstwo.github.io dana jest strona kierunku edytorstwo na UJ. Muszę przygotować na niej sekcję FAQ. Na podstawie dostępnych źródeł przygotuj 6–8 pytań, na które odpowiedzi mogą szukać osoby chcące zrekrutować się na ten kierunek.
