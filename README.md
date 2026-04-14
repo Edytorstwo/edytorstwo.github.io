@@ -64,9 +64,12 @@ Po zakończeniu ćwiczenia grupa przedstawia pozostałym swój proces decyzyjny 
 - Zmodyfikuj kod tak, aby ścieżka była właściwa, czyli w główny folderze strony znajduje się folder assets, a w nim folder images, gdzie wrzuciliśmy plik favicon.png
 - 
 ### Grupa 2
+- Opracuj krótki, ok. minutowy zabawny quiz  pod roboczym tytułem: „Czy płynie w Tobie edytorska krew?". Quiz ma zawierać 10 pytań i nawiązywać do działań Katedry Edytorstwa na Wydziale Polonistyki UJ, a także do programu studiów edytorskich.
+- Ten quiz ma mieć charakter psychotestu i ma być bardziej zabawny
+– Pokaż mi podgląd tego kodu w HTML
+– Stwórz krótki, jednozdaniowy tekst zachęcający do wykonania tego testu oraz przycisk, który otworzy test w nowym oknie przeglądarki. Do całego testu oraz przycisku z tekstem zachęcającym potrzebuję skryptów, które umieszczę w GitHub.
 - Zabawny quiz "Czy płynie w tobie edytorska krew" dla studentów UJ (albo luźno powiązany z UJ), zaprojektuj 10 pytań
 - Przygotuj na githuba kod HTML strony z tymi pytaniami, który policzy odpowiedzi i na ich podstawie przyporządkuje jeden z wyników
-- 
 ### Grupa 3
 - 
 - 
