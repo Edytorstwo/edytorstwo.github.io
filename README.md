@@ -64,8 +64,8 @@ Po zakończeniu ćwiczenia grupa przedstawia pozostałym swój proces decyzyjny 
 - Zmodyfikuj kod tak, aby ścieżka była właściwa, czyli w główny folderze strony znajduje się folder assets, a w nim folder images, gdzie wrzuciliśmy plik favicon.png
 - 
 ### Grupa 2
-- 
-- 
+- Zabawny quiz "Czy płynie w tobie edytorska krew" dla studentów UJ (albo luźno powiązany z UJ), zaprojektuj 10 pytań
+- Przygotuj na githuba kod HTML strony z tymi pytaniami, który policzy odpowiedzi i na ich podstawie przyporządkuje jeden z wyników
 - 
 ### Grupa 3
 - 
